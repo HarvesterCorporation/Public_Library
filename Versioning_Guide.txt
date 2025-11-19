@@ -1,0 +1,7 @@
+VERSIONING SYSTEM
+
+v1.0 — First stable release
+v1.1-9 — Small refinements (incrementing up to v1.9)
+v1.1.1–9 — Micro fixes (typos, layout, clarity tweaks without philosophical change)  
+v2.0 — Major philosophical evolution
+v3.0 — Next-era shift
