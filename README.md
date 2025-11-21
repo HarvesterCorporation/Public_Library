@@ -61,11 +61,11 @@ This serves as the accessible philosophical foundation for the public.
 
 The Public Library is organized into clearly defined collections:
 
-/Eidos_Fragments
-/Guides
-/Manuscripts
-/Reference
-/White_Papers
+-/Eidos_Fragments
+-/Guides
+-/Manuscripts
+-/Reference
+-/White_Papers
 
 Each category will expand gradually as new materials are published.
 
