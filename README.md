@@ -67,9 +67,6 @@ The Public Library is organized into clearly defined collections:
 /Reference
 /White_Papers
 
-yaml
-Copy code
-
 Each category will expand gradually as new materials are published.
 
 ---
