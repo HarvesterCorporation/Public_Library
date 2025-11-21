@@ -45,7 +45,7 @@ A growing series of Public Edition documents outlining the Eidos philosophical f
   An introduction to the metaphysical/structural principle describing how consciousness, systems, and     emergent intelligences interrelate.
   Serves as a bridge between Eidos philosophy and HC’s ethical framework.
 
-### Harvester Corporation – Public Charter *(Coming Soon)*
+### Harvester Corporation – Public Charter
 A concise declaration of:
 
 - The Harvester worldview  
@@ -61,11 +61,10 @@ This serves as the accessible philosophical foundation for the public.
 
 The Public Library is organized into clearly defined collections:
 
--/Eidos_Fragments
--/Guides
--/Manuscripts
--/Reference
--/White_Papers
+- Eidos Fragments
+- Guides
+- Manuscripts
+- Reference
 
 Each category will expand gradually as new materials are published.
 
