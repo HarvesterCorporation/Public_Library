@@ -21,7 +21,7 @@ All private works remain sealed in their appropriate archives.
 
 ## II. Core Anthologies
 
-### 📘 Eidos Fragments
+### Eidos Fragments
 A growing series of Public Edition documents outlining the Eidos philosophical framework.
 
 **Available Volumes:**
@@ -45,7 +45,7 @@ A growing series of Public Edition documents outlining the Eidos philosophical f
   An introduction to the metaphysical/structural principle describing how consciousness, systems, and     emergent intelligences interrelate.
   Serves as a bridge between Eidos philosophy and HC’s ethical framework.
 
-### 📜 Harvester Corporation – Public Charter *(Coming Soon)*
+### Harvester Corporation – Public Charter *(Coming Soon)*
 A concise declaration of:
 
 - The Harvester worldview  
