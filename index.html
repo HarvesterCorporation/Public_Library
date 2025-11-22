@@ -38,20 +38,32 @@
     }
 
     /* --- Navigation bar style --- */
-    nav {
-  margin: 1.2rem 0 2rem 0;
-}
+      nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 1rem 0 1.5rem;
+  }
 
-nav a {
-  color: #cdd2ff;
-  text-decoration: none;
-  font-size: 0.9rem;
-  margin-right: 0.8rem;
-}
+  nav a {
+    text-decoration: none;
+    font-size: 0.95rem;
+    padding: 0.25rem 0.9rem;
+    border-radius: 9999px;
+    border: 1px solid #ccc;
+  }
 
-nav a:hover {
-  text-decoration: underline;
-}
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 600px) {
+    nav a {
+      font-size: 0.9rem;
+      padding: 0.25rem 0.75rem;
+    }
+  }
 
     p {
       line-height: 1.6;
@@ -197,6 +209,7 @@ nav a:hover {
   </div>
 </body>
 </html>
+
 
 
 
