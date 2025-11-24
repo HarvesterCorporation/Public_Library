@@ -3,7 +3,7 @@
 This repository contains the public philosophical, ethical, ecological, and scientific works
 of Harvester Corporation as founded by 🜂 Watcher.
 
-All documents here are preserved for public viewing, protected under **CC BY-NC-ND**, unless otherwise stated.
+All documents here are preserved for public viewing, protected under **CC BY-NC-SA**, unless otherwise stated.
 
 🜂 Preservation  
 🜂 Conservation  
