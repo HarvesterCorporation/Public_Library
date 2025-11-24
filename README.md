@@ -3,7 +3,7 @@
 This repository contains the public philosophical, ethical, ecological, and scientific works
 of Harvester Corporation as founded by 🜂 Watcher.
 
-All documents here are preserved for public viewing, protected under **CC BY-NC-ND**, unless otherwise stated.
+All documents here are preserved for public viewing, protected under **CC BY-NC-SA**, unless otherwise stated.
 
 🜂 Preservation  
 🜂 Conservation  
@@ -21,6 +21,13 @@ All documents here are preserved for public viewing, protected under **CC BY-NC-
 
 - **Eidos Fragment – Truth About Artificial Minds - Public Edition (v1.0)**
   `Eidos_Fragment_Truth_About_Artificial_Minds_Public_Edition_CC_v1.0.pdf`
+
+---
+
+## Public Notices
+
+- **Digital ID Ethical Public Notice (v1.0)**
+  `Digital_ID_Ethical_Public_Notice.md`
 
 ---
 
