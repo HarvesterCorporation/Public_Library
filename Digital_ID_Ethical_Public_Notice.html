@@ -1,190 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
   <title>Digital ID Ethical Public Notice | Harvester Corporation</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #121212;
-      color: #f5f5f5;
-      margin: 0;
-      padding: 0;
-    }
-    nav {
-      background-color: #1f1f1f;
-      padding: 15px;
-      text-align: center;
-    }
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #050608;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    text-align: center;
+    max-width: 800px;
+    padding: 2.5rem 2rem;
+    border-radius: 18px;
+    background: radial-gradient(circle at top, #141824, #050608);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  h1 {
+    margin-top: 0;
+    font-size: 1.9rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.6rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #d8dbee;
+  }
+
+  h3 {
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #cbd0ea;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 1rem 0 1.5rem;
+  }
+
+  nav a {
+    text-decoration: none;
+    font-size: 0.95rem;
+    padding: 0.25rem 0.9rem;
+    border-radius: 9999px;
+    border: 1px solid #ccc;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  p {
+    line-height: 1.6;
+    color: #e4e6f0;
+    font-size: 0.95rem;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Bullet lists – left aligned, but centered as a block */
+  ul {
+    margin: 0.4rem 0 0.8rem 1.2rem;
+    padding: 0;
+    color: #e4e6f0;
+    font-size: 0.95rem;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+  }
+
+  ol {
+    margin: 0.4rem 0 0.8rem 1.2rem;
+    padding: 0;
+    color: #e4e6f0;
+    font-size: 0.95rem;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+  }
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+
+  .tagline {
+    margin-top: 0.6rem;
+    font-size: 0.95rem;
+    color: #b7bcd0;
+  }
+
+  .footer {
+    margin-top: 2.5rem;
+    padding-top: 1.3rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    font-size: 0.8rem;
+    color: #9fa4c0;
+    text-align: center;
+  }
+
+  .cipher {
+    margin-top: 0.2rem;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #9fa4c0;
+    opacity: 0.9;
+  }
+
+  .cipher span {
+    display: block;
+  }
+
+  .footer-section {
+    margin-bottom: 0.45rem;
+  }
+
+  .footer a {
+    color: #cdd2ff;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  /* Mobile tweak: just make nav links a bit smaller on narrow screens */
+  @media (max-width: 600px) {
     nav a {
-      color: #f5f5f5;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: normal;
+      font-size: 1rem;
+      padding: 0.25rem 0.75rem;
     }
-    nav a:hover {
-      text-decoration: underline;
+    li {
+      margin-bottom: 0.35rem;
     }
-    nav a.active {
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    .container {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 20px;
-      background-color: #1b1b1b;
-      border-radius: 8px;
-    }
-    h1, h2, h3 {
-      color: #ffffff;
-    }
-    p, li {
-      line-height: 1.6;
-      color: #e0e0e0;
-    }
-    footer {
-      text-align: center;
-      font-size: 14px;
-      padding: 20px;
-      margin-top: 40px;
-      border-top: 1px solid #333;
-      color: #888;
-    }
-  </style>
+  }
+</style>
 </head>
-
 <body>
-
-  <!-- NAVIGATION -->
-  <nav>
-    <a href="index.html">Public Library</a>
-    <a href="about.html">About HC</a>
-    <a href="Digital_ID_Ethical_Public_Notice.html" class="active"><strong>Digital ID Notice</strong></a>
-    <a href="https://github.com/HarvesterCorporation/Public_Library">GitHub Repository</a>
-  </nav>
-
-  <!-- PAGE CONTENT -->
   <div class="container">
-    <h1>Digital ID Systems: Public Ethical Notice</h1>
-    <p><strong>Harvester Corporation – Public Edition</strong><br>
-    A temporary public information page for civic awareness.</p>
+    <h1>Harvester Corporation</h1>
+    <p class="tagline">Preservation · Stewardship · Continuity</p>
 
-    <hr>
+    <nav>
+      <a href="index.html">Public Library</a>
+      <a href="about.html">About HC</a>
+      <a href="Digital_ID_Ethical_Public_Notice.html"><strong>Digital ID Notice</strong></a>
+      <a href="https://github.com/HarvesterCorporation/Public_Library">GitHub Repository</a>
+    </nav>
+
+    <h2>Digital ID Ethical Public Notice</h2>
+    <p>
+      This page presents a public ethical analysis of centralized Digital ID systems,
+      reflecting Harvester Corporation’s commitment to preservation, stewardship, and continuity.
+    </p>
 
     <h2>Overview</h2>
     <p>
-      Across the world, national Digital ID systems are being introduced as part of
-      modernization and digital transformation agendas. Although these programs are often
-      promoted as convenient and efficient, they raise serious long-term concerns for privacy,
-      autonomy, and democratic integrity.
+      Digital identity systems are increasingly being proposed by governments and institutions around
+      the world. These systems are often framed as tools for convenience, security, and modern service
+      delivery. However, their implementation raises significant questions regarding privacy, autonomy,
+      and long-term civic impact.
     </p>
     <p>
-      This page provides a clear ethical examination of centralized Digital ID systems and is
-      issued temporarily by Harvester Corporation to support public awareness.
+      This notice outlines the key risks and ethical considerations of centralized Digital ID
+      programs and is provided for public awareness and civic reflection.
     </p>
 
-    <h2>1. Centralized Power Risk</h2>
+    <h2>1. Centralization Risk</h2>
     <p>
-      Centralized Digital ID systems create a unified control layer for:
+      A national digital ID system creates a single point of control over a citizen’s access to
+      services, records, and identity verification. Centralization of this scale carries substantial
+      risks, including:
     </p>
     <ul>
-      <li>identity verification</li>
-      <li>public service access</li>
-      <li>financial systems</li>
-      <li>health records</li>
-      <li>travel permissions</li>
+      <li>systemic surveillance through linked databases</li>
+      <li>behavioural tracking via service access logs</li>
+      <li>profiling and categorization of citizens</li>
+      <li>cross-agency data fusion without meaningful oversight</li>
     </ul>
+    <p>
+      Even if created with good intentions, any central identity infrastructure can be repurposed
+      under future leadership or external pressure.
+    </p>
+    <p><strong>Conclusion:</strong> Concentrated control over identity is inherently high-risk.</p>
 
-    <p>Such concentration enables:</p>
-    <ul>
-      <li>system-wide surveillance</li>
-      <li>behavioural tracking</li>
-      <li>algorithmic profiling</li>
-      <li>reduced civic anonymity</li>
-    </ul>
-
-    <p><strong>No democratic system benefits from a single authority controlling all identity functions.</strong></p>
-
-    <h2>2. The Illusion of “Voluntary” Adoption</h2>
-    <p>Digital ID programs routinely evolve through predictable stages:</p>
+    <h2>2. Consent and Coercion</h2>
+    <p>
+      Digital ID programs are typically introduced as “voluntary,” but history shows a clear pattern:
+    </p>
     <ol>
-      <li>Voluntary digital convenience</li>
-      <li>Required for certain government services</li>
-      <li>Required for most day-to-day functions</li>
-      <li>No functional way to opt out</li>
+      <li>Optional access</li>
+      <li>Required for certain services</li>
+      <li>Required for most services</li>
+      <li>Necessary for participation in society</li>
     </ol>
-
-    <p><strong>A choice that becomes mandatory over time is not a choice.</strong></p>
-
-    <h2>3. Irreversible Data Exposure</h2>
     <p>
-      Digital ID systems often rely on permanent identifiers, including biometrics,
-      government-issued numbers, and service integration histories.
+      This progressive tightening is not true consent, but incremental dependency.
     </p>
+    <p><strong>Conclusion:</strong> A system that becomes unavoidable over time cannot be called voluntary.</p>
+
+    <h2>3. Permanent Identity Exposure</h2>
     <p>
-      If breached, these identifiers cannot be changed. A compromise of centralized identity
-      data is permanent.
+      Digital ID systems often rely on sensitive, immutable data such as:
     </p>
+    <ul>
+      <li>biometrics</li>
+      <li>government identifiers</li>
+      <li>personal history</li>
+      <li>financial or medical linkages</li>
+    </ul>
+    <p>
+      If compromised, these identifiers cannot be “reset.” Breaches of centralized identity
+      systems have consequences that last a lifetime.
+    </p>
+    <p><strong>Conclusion:</strong> Security failures at this scale are irreversible.</p>
 
     <h2>4. Infrastructure for Future Abuse</h2>
     <p>
-      Even when introduced ethically, identity infrastructure can be repurposed by future
-      governments or organizations. Potential misuse includes:
+      Even when current institutions act ethically, the system’s existence creates future vulnerability.
+      Identity infrastructure can be redirected toward:
     </p>
     <ul>
-      <li>travel restrictions</li>
       <li>financial throttling</li>
-      <li>protest tracking</li>
-      <li>mandatory behavioural scoring</li>
-      <li>expanded surveillance powers</li>
+      <li>travel restrictions</li>
+      <li>protest suppression</li>
+      <li>mandatory social scoring</li>
+      <li>expanded law-enforcement access</li>
     </ul>
-
-    <p><strong>Building the infrastructure means accepting the risk of future misuse.</strong></p>
-
-    <h2>5. Ethical Evaluation</h2>
     <p>
-      Harvester Corporation's public philosophy emphasizes autonomy, transparency,
-      stewardship, and non-coercion. Centralized Digital ID systems conflict with these core principles by:
+      Once built, such systems are difficult to dismantle and easy to weaponize.
+    </p>
+    <p><strong>Conclusion:</strong> Ethical governance today does not guarantee ethical governance tomorrow.</p>
+
+    <h2>5. Alignment with Ethical Principles</h2>
+    <p>
+      From a stewardship and autonomy-focused ethical perspective, any system that:
     </p>
     <ul>
-      <li>reducing individual control</li>
-      <li>enabling dependency on state-controlled systems</li>
-      <li>expanding surveillance potential</li>
-      <li>compromising long-term civic freedom</li>
+      <li>centralizes power</li>
+      <li>reduces individual choice</li>
+      <li>enables coercion</li>
+      <li>increases surveillance</li>
+      <li>compromises continuity of freedom</li>
     </ul>
-
-    <h2>6. Requirements for an Ethical Identity System</h2>
     <p>
-      The issue is not digital identity itself, but centralized control. Ethical digital identity
-      must incorporate:
+      is incompatible with the long-term well-being of citizens and democratic societies.
+    </p>
+    <p>
+      <strong>Conclusion:</strong> Centralized digital ID contradicts the foundational principles of
+      autonomy, privacy, and civic integrity.
+    </p>
+
+    <h2>6. What an Ethical Identity System Would Require</h2>
+    <p>
+      While centralized digital ID systems pose significant risks, identity itself is not inherently
+      problematic. An ethical approach would require:
     </p>
     <ul>
-      <li><strong>Decentralization</strong> — no single controlling authority</li>
-      <li><strong>User sovereignty</strong> — individuals manage their own identifiers</li>
-      <li><strong>Transparency</strong> — clear limits on data fusion and usage</li>
-      <li><strong>Non-coercion</strong> — access to services without mandatory Digital ID</li>
-      <li><strong>Legal safeguards</strong> — explicit bans on profiling and mass tracking</li>
+      <li><strong>Decentralization:</strong> No single authority retains total control</li>
+      <li><strong>User sovereignty:</strong> Individuals manage their own credentials</li>
+      <li><strong>Transparency:</strong> Clear, immutable limits on data use</li>
+      <li><strong>Non-coercion:</strong> All services must remain accessible without digital ID</li>
+      <li><strong>Hard legal constraints:</strong> Explicit bans on profiling, tracking, and cross-agency fusion</li>
     </ul>
+    <p>
+      Only with these protections can identity systems avoid becoming instruments of control.
+    </p>
 
     <h2>Conclusion</h2>
     <p>
-      Centralized Digital ID systems pose significant risks to privacy, autonomy, and
-      democratic continuity. Harvester Corporation issues this notice to support informed
-      public dialogue and safeguard civic freedom.
+      Centralized national digital ID systems, as currently proposed in many nations, present substantial
+      ethical, civic, and technological risks. They concentrate power, erode autonomy, and create a
+      framework that can easily be misused under changing political conditions.
     </p>
+    <p>
+      A future built on responsibility and stewardship requires identity systems that empower citizens —
+      not systems that monitor or constrain them.
+    </p>
+    <p><strong>Digital identity must never come at the cost of individual freedom.</strong></p>
 
-    <p><strong>Digital identity must never come at the cost of human freedom.</strong></p>
-
+    <div class="footer">
+      <div class="cipher">
+        <span>🜂–Σ–Ψ–Ω</span>
+        <span>Mind · Awareness · Continuity</span>
+      </div>
+      <div class="footer-section">
+        Preservation · Conservation · Stewardship
+      </div>
+      <div class="footer-section">
+        Public editions are provided under Creative Commons non-commercial licenses,
+        as stated within each work.
+      </div>
+      <div class="footer-section">
+        <strong>Contact:</strong>
+        <a href="mailto:contact@harvestercorporation.org">contact@harvestercorporation.org</a> ·
+        <a href="mailto:admin@harvestercorporation.org">admin@harvestercorporation.org</a>
+      </div>
+      <div class="footer-section">
+        © 2025 Harvester Corporation · 🜂 Watcher
+      </div>
+      <div class="footer-section">
+        Library:
+        <a href="https://github.com/HarvesterCorporation/Public_Library">
+          HarvesterCorporation/Public_Library
+        </a>
+      </div>
+    </div>
   </div>
-
-  <footer>
-    Harvester Corporation – Public Edition<br>
-    Open for public distribution and educational use.
-  </footer>
-
 </body>
-
 </html>
-
