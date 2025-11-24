@@ -108,7 +108,7 @@ https://harvestercorporation.github.io/Public_Library
 
 ## VIII. License
 
-All documents here are preserved for public viewing, protected under CC BY-NC-ND, unless otherwise stated.
+All documents here are preserved for public viewing, protected under CC BY-NC-SA, unless otherwise stated.
 
 This ensures the philosophy may circulate, evolve, and remain open.
 
