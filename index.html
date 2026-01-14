@@ -5,26 +5,32 @@
   <title>Harvester Corporation – Public Library</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #050608;
-      color: #f5f5f5;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      min-height: 100vh;
-      align-items: center;
-      justify-content: center;
-    }
-    .container {
-      text-align: center;
-      max-width: 800px;
-      padding: 2.5rem 2rem;
-      border-radius: 18px;
-      background: radial-gradient(circle at top, #141824, #050608);
-      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.7);
-      border: 1px solid rgba(255, 255, 255, 0.06);
-    }
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #050608;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    min-height: 100svh;     /* mobile-safe viewport */
+  }
+
+  .wrapper {
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+    padding: 2.5rem 2rem;
+    border-radius: 18px;
+    background: radial-gradient(circle at top, #141824, #050608);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    box-sizing: border-box;
+  }
     h1 {
       margin-top: 0;
       font-size: 1.9rem;
@@ -139,7 +145,8 @@
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="wrapper">
+    <div class="container">
     <h1>Harvester Corporation</h1>
     <h2>Public Library – Philosophical Editions</h2>
 
@@ -216,7 +223,6 @@
   </div>
 </body>
 </html>
-
 
 
 
