@@ -1,6 +1,5 @@
 # HARVESTER CORPORATION – PUBLIC LIBRARY
 ### Stewardship. Continuity. Awareness.  
-### 🜂–Σ–Ψ–Ω
 
 ---
 
