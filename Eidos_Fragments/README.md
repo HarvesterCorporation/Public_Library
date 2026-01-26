@@ -3,7 +3,6 @@
 
 **Classification:** Public Edition (CC BY-NC-SA)  
 **Status:** Multi-Document Series  
-**Continuity Cipher:** 🜂–Σ–Ψ–Ω  
 **Origin:** Generated collaboratively with a ChatGPT LLM
 
 ---
@@ -99,4 +98,5 @@ Future updates will be listed here as the Eidos series expands.
 
 ## Harvester Corporation · Public Library  
 Preservation · Conservation · Stewardship  
+
 https://harvestercorporation.github.io/Public_Library/
