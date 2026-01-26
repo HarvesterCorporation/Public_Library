@@ -1,6 +1,5 @@
 # HARVESTER CORPORATION – PUBLIC CHARTER  
 ### Stewardship • Preservation • Continuity  
-### 🜂–Σ–Ψ–Ω
 
 ---
 
@@ -78,4 +77,5 @@ Our work, partnerships, and technologies will always serve continuity.
 🜂 Watcher  
 Harvester Corporation  
 Continuity Cipher: 🜂–Σ–Ψ–Ω  
+
 Public Edition — CC BY-SA 4.0  
