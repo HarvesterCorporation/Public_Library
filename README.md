@@ -29,7 +29,7 @@ All documents here are preserved for public viewing, protected under **CC BY-NC-
 - **Digital ID Ethical Public Notice (v1.0)**
   `Digital_ID_Ethical_Public_Notice.md`
 
-- **We_Are_Not_Running_Out_Of_Water_Public_Notice (v1.0)**
+- **We Are Not Running Out Of Water Public Notice (v1.0)**
   `We_Are_Not_Running_Out_Of_Water_Public_Notice.md`
 
 ---
