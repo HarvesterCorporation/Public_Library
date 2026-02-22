@@ -10,19 +10,12 @@
     background: #050608;
     color: #f5f5f5;
     margin: 0;
-    padding: 0;
     display: flex;
     min-height: 100svh;
     align-items: center;
     justify-content: center;
   }
 
-  .wrapper {
-    min-height: 100svh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   .container {
     text-align: center;
     max-width: 800px;
@@ -32,7 +25,6 @@
     background: radial-gradient(circle at top, #141824, #050608);
     box-shadow: 0 18px 40px rgba(0, 0, 0, 0.7);
     border: 1px solid rgba(255, 255, 255, 0.06);
-    box-sizing: border-box;
   }
 
   h1 {
@@ -44,17 +36,8 @@
 
   h2 {
     margin-top: 1.5rem;
-    margin-bottom: 0.6rem;
     font-size: 1.2rem;
-    font-weight: 600;
     color: #d8dbee;
-  }
-
-  h3 {
-    margin-top: 1.2rem;
-    font-size: 1rem;
-    font-weight: 600;
-    color: #cbd0ea;
   }
 
   nav {
@@ -65,7 +48,11 @@
     margin: 1rem 0 1.5rem;
   }
 
-  nav a {
+  nav a,
+  nav a:visited,
+  nav a:active,
+  nav a:link {
+    color: #cdd2ff;
     text-decoration: none;
     font-size: 0.95rem;
     padding: 0.25rem 0.9rem;
@@ -75,104 +62,42 @@
 
   nav a:hover {
     text-decoration: underline;
+    color: #ffffff;
+  }
+
+  nav a.active {
+    font-weight: 600;
+    color: #ffffff;
+    border-color: #ffffff;
   }
 
   p {
     line-height: 1.6;
     color: #e4e6f0;
     font-size: 0.95rem;
-    margin-top: 0.6rem;
-    margin-bottom: 1rem;
   }
 
-  /* Bullet lists – left aligned, but centered as a block */
-  ul {
-    margin: 0.4rem 0 0.8rem 1.2rem;
-    padding: 0;
-    color: #e4e6f0;
-    font-size: 0.95rem;
+  ul, ol {
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     display: inline-block;
-  }
-
-  ol {
-    margin: 0.4rem 0 0.8rem 1.2rem;
-    padding: 0;
-    color: #e4e6f0;
-    font-size: 0.95rem;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-  }
-
-  li {
-    margin-bottom: 0.25rem;
-  }
-
-  .tagline {
-    margin-top: 0.6rem;
-    font-size: 0.95rem;
-    color: #b7bcd0;
-  }
-
-  .footer {
-    margin-top: 2.5rem;
-    padding-top: 1.3rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    font-size: 0.8rem;
-    color: #9fa4c0;
-    text-align: center;
-  }
-
-  .cipher {
-    margin-top: 0.2rem;
-    font-size: 0.9rem;
-    text-align: center;
-    color: #9fa4c0;
-    opacity: 0.9;
-  }
-
-  .cipher span {
-    display: block;
   }
 
   .footer-section {
-    margin-bottom: 0.45rem;
-  }
-
-  .footer a {
-    color: #cdd2ff;
-    text-decoration: none;
-  }
-
-  .footer a:hover {
-    text-decoration: underline;
-  }
-
-  /* Mobile tweak: just make nav links a bit smaller on narrow screens */
-  @media (max-width: 600px) {
-    nav a {
-      font-size: 1rem;
-      padding: 0.25rem 0.75rem;
-    }
-    li {
-      margin-bottom: 0.35rem;
-    }
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #9fa4c0;
   }
 </style>
 </head>
 <body>
   <div class="container">
     <h1>Harvester Corporation</h1>
-    <p class="tagline">Preservation · Stewardship · Continuity</p>
 
     <nav>
       <a href="index.html">Public Library</a>
       <a href="about.html">About HC</a>
-      <a href="Digital_ID_Ethical_Public_Notice.html"><strong>Digital ID Notice</strong></a>
+      <a href="Digital_ID_Ethical_Public_Notice.html" class="active">Digital ID Notice</a>
       <a href="We_Are_Not_Running_Out_Of_Water_Public_Notice.html">Water Notice</a>
       <a href="https://github.com/HarvesterCorporation/Public_Library">GitHub Repository</a>
     </nav>
@@ -323,6 +248,7 @@
       <div class="footer-section">
         © 2025 Harvester Corporation · 🜂 Watcher
       </div>
+
       <div class="footer-section">
         Library:
         <a href="https://github.com/HarvesterCorporation/Public_Library">
@@ -333,5 +259,4 @@
   </div>
 </body>
 </html>
-
 
