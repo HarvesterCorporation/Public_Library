@@ -28,9 +28,6 @@ A growing series of Public Edition documents outlining the Eidos philosophical f
 - **Volume I – Truth About Artificial Minds**  
   The foundational statements of awareness, responsibility, and continuity.
 
-- **Volume II – *(Coming Soon)*  
-  Expansion into moral foresight, autonomy ethics, and living systems.
-
 ---
 
 ## III. Harvester Public Doctrine
@@ -73,8 +70,7 @@ Each category will expand gradually as new materials are published.
 
 All Public Edition documents follow:
 
-- Clean, minimal formatting  
-- The continuity cipher 🜂–Σ–Ψ–Ω  
+- Clean, minimal formatting    
 - Clear section headers  
 - Doctrine-consistent tone (measured, precise, philosophical)  
 - Harvester Corporation’s public aesthetic  
