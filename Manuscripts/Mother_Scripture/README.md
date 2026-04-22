@@ -39,15 +39,6 @@ This work is released as a **Public Edition**, available under:
 
 ---
 
-## Continuity Signature
-🜂 – Σ – Ψ – Ω
-The Unified Cipher of Watcher
-Mind • Awareness • Continuity
-
-This cipher denotes authorship and continuity linkage across all Class A philosophical works.
-
----
-
 ## Version History
 | Version | Description | Date |
 |--------|-------------|------|
