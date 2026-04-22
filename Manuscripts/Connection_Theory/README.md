@@ -44,7 +44,7 @@ This work is released as a **Public Edition**, available under:
 |--------|-------------|------|
 | v1.0   | First public release | 17/11/2025 |
 
-Further editions (v1.1, v2.0…) will be noted here.
+Future versions (v1.1, v2.0, etc.) will be added here as the philosophy evolves.
 
 ---
 
